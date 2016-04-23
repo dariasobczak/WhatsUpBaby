@@ -1,2 +1,0 @@
-# WhatsUpBaby
-Aplikacja dla przedszkola
