@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ogłoszenie</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<title>What's up Baby</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Chela+One' rel='stylesheet' type='text/css'>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+  <div class="container">
  <!-- Brand and toggle get grouped for better mobile display -->
- <div class="container">
   <div class="navbar-header">
    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
     <span class="sr-only">Toggle navigation</span>
@@ -24,31 +28,73 @@
   </div>
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="navbarCollapse">
-   <ul class="nav navbar-nav navbar-right">
+<!--    <ul class="nav navbar-nav navbar-left">
     <li class="active"><a href="#" target="_blank">Tablica ogłoszeń</a></li>
-    <li><a href="http://www.tutorialrepublic.com/about-us.php" target="_blank">Poczta</a></li>
-    <li><a href="http://www.tutorialrepublic.com/contact-us.php" target="_blank">Zdjęcia</a></li>
-    <li><a href="http://www.tutorialrepublic.com/contact-us.php" target="_blank">Dane rodziców</a></li>
-   </ul>
+    <li><a href="#" target="_blank">Poczta</a></li>
+    <li><a href="#" target="_blank">Zdjęcia</a></li>
+    <li><a href="#" target="_blank">Dane rodziców</a></li>
+   </ul> -->
+   <ul class="nav navbar-nav navbar-right"><li><a href="#">Log out</a></li></ul>
   </div>
-</div>
 </nav>
+</div>
 <div class="container">
-	<div class="jumbotron">
-		<h1>Hello Baby!<h1>
+<!-- 	<div class="jumbotron">
+		<h2>Hello Baby!</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique eget risus.</p>
-	</div>
+	</div> -->
 
-    <div class="row">
-        <div class="col-md-6" class="thumbnail"><img src="images/newstable.jpg" alt="125x125" class="img-thumbnail"></div>
-        <div class="col-md-6" class="thumbnail"><img src="images/newstable.jpg" alt="125x125" class="img-thumbnail"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-6" class="thumbnail"><img src="images/newstable.jpg" alt="125x125" class="img-thumbnail"></div>
-        <div class="col-md-6" class="thumbnail"><img src="images/newstable.jpg" alt="125x125" class="img-thumbnail"></div>
+<!--     <div class="row">
+        <div class="col-md-3"><img src="images/newstable.jpg" alt="125x125" class="img-responsive"></div>
+        <div class="col-md-3"><img src="images/gallery.jpg" alt="125x125" class="img-responsive"></div>
+        <div class="col-md-3"><img src="images/parentsinfo.jpg" alt="125x125" class="img-responsive"></div>
+        <div class="col-md-3"><img src="images/mailbox.jpg" alt="125x125" class="img-responsive"></div>
+    </div> -->
+    <div>
+        <ul class="grid cs-style-4">
+        <li>
+          <figure>
+            <div><img src="images/newstable.jpg" alt="newstable"></div>
+            <figcaption>
+              <h3>Tablica ogłoszeń</h3>
+              <span>Zobacz, co nowego!</span>
+              <a href="#">Sprawdź</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="images/gallery.jpg" alt="gallery"></div>
+            <figcaption>
+              <h3>Galeria</h3>
+              <span>Pamiątki do rodzinnego albumu</span>
+              <a href="#">Sprawdź</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="images/parentsinfo.jpg" alt="parentsinfo"></div>
+            <figcaption>
+              <h3>Dane rodziców</h3>
+              <span>Skontaktuj się z innymi rodzicami</span>
+              <a href="#">Sprawdź</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="images/mailbox.jpg" alt="mailbox"></div>
+            <figcaption>
+              <h3>Poczta</h3>
+              <span>Wyślij wiadomość do przedszkola</span>
+              <a href="#">Sprawdź</a>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
     </div>
 </div>
-<script type="text/javascript" rel="js/jquery-1.12.3.min"></script>
-<script type="text/javascript" rel="js/bootstrap.min.js"></script>
+<script src="js/toucheffects.js"></script>
 </body>
 </html>
